@@ -7,3 +7,7 @@
 
 # .tfvars files
 *.tfvars
+
+# gcp-vault certs
+gcp-vault/certs
+gcp-vault/*.encrypted*

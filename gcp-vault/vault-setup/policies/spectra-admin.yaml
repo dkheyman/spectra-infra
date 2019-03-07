@@ -1,0 +1,9 @@
+data:
+  name: spectra-admin
+  rules: |
+    path "secret/spectra/*" {
+      capabilities = ["create", "read", "update", "delete", "list"]
+    }
+    path "sys/*" {
+      capabilities = ["read", "list"]
+    }

@@ -1,0 +1,9 @@
+data:
+  name: spectra-dev
+  rules: |
+    path "secret/spectra/mongodb/*" {
+      capabilities = ["read"]
+    }
+    path "secret/spectra/*" {
+      capabilities = ["create"]
+    }

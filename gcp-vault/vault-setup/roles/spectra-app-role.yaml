@@ -1,0 +1,12 @@
+data:
+  add_group_aliases: false
+  allow_gce_inference: true
+  bound_projects:
+  - spectra-142219
+  bound_service_accounts:
+  - spectra-vault-admin@spectra-142219.iam.gserviceaccount.com
+  - spectra-142219@appspot.gserviceaccount.com
+  max_jwt_exp: 900
+  policies:
+  - spectra-dev
+  type: iam
